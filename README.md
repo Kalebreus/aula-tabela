@@ -1,21 +1,7 @@
-# Agência XYZ — Landing page
+# Meu Universo — portfólio de personagens
 
-Landing page responsiva, em português e sem dependências de build.
+Galeria estática e responsiva para apresentar personagens autorais. As artes ficam em `assets/personagens/`; a página traz filtro por personagens individuais/duplas, visualização em tamanho maior e compartilhamento do link.
 
-## Executar localmente
+O deploy para GitHub Pages acontece pelo workflow `.github/workflows/pages.yml` em cada push para `main`.
 
-Abra `index.html` no navegador ou use uma extensão de servidor local, como Live Server.
-
-## Publicar no GitHub Pages
-
-O workflow em `.github/workflows/pages.yml` publica automaticamente o conteúdo da raiz a cada push para `main`. No repositório, habilite **Settings → Pages → Build and deployment → GitHub Actions**.
-
-## Recursos
-
-- Layout adaptado para celular, tablet e desktop.
-- Menu móvel acessível por teclado e botão.
-- Filtros interativos no portfólio.
-- Links de contato via cliente de e-mail.
-- Animações respeitam a preferência de movimento reduzido.
-
-Para apontar o botão de contato a um endereço específico, altere o destinatário no link `mailto:` em `index.html`.
+Altere os nomes e descrições dos cartões em `index.html` para usar os nomes oficiais dos personagens.
